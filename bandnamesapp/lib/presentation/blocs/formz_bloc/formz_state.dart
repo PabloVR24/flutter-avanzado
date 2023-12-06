@@ -7,12 +7,7 @@ class FormzState extends Equatable {
 
   const FormzState({
     this.name = const NameInput.pure(),
-    this.bands = const [
-      BandModel(id: '1', name: 'Post Malone', votes: 13),
-      BandModel(id: '2', name: 'Bad Bunny', votes: 13),
-      BandModel(id: '3', name: 'Hardwell', votes: 43),
-      BandModel(id: '4', name: 'Peso Pluma', votes: 12),
-    ],
+    this.bands = const [],
   });
 
   @override
